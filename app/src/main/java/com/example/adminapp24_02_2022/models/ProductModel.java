@@ -8,6 +8,7 @@ public class ProductModel {
     private String productImageUrl;
     private String description;
     private boolean status;
+    public String test;
 
     public ProductModel() {
     }
@@ -20,6 +21,7 @@ public class ProductModel {
         this.productImageUrl = productImageUrl;
         this.description = description;
         this.status = status;
+	
     }
 
     public String getProductId() {
